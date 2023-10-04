@@ -52,7 +52,12 @@ docker compose up -d
 build
 ```shell
 npm ci
+```
+```shell
 sqd build
+```
+```shell
+sqd migration:apply
 ```
 &nbsp;
 Run
@@ -97,7 +102,12 @@ docker compose up -d
 build
 ```shell
 npm ci
+```
+```shell
 sqd build
+```
+```shell
+sqd migration:apply
 ```
 &nbsp;
 Run
@@ -127,7 +137,7 @@ cd triple-proc
 
 Download your key
 * Open https://app.subsquid.io/quests
-* Download "double-proc squid" Key
+* Download "triple-proc squid" Key
 ![Screenshot_14](https://github.com/uangdrop/subsquid/assets/128940865/629eaf92-937f-4a04-8ea2-c729b6dc9e36)
 
 
@@ -143,7 +153,12 @@ docker compose up -d
 build
 ```shell
 npm ci
+```
+```shell
 sqd build
+```
+```shell
+sqd migration:apply
 ```
 &nbsp;
 Run
@@ -173,7 +188,7 @@ cd quad-proc
 
 Download your key
 * Open https://app.subsquid.io/quests
-* Download "double-proc squid" Key
+* Download "quad-proc squid" Key
 
 ![Screenshot_15](https://github.com/uangdrop/subsquid/assets/128940865/476eee00-aa42-40c8-931a-ca2499e85622)
 
@@ -189,7 +204,12 @@ docker compose up -d
 build
 ```shell
 npm ci
+```
+```shell
 sqd build
+```
+```shell
+sqd migration:apply
 ```
 &nbsp;
 Run
